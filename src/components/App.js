@@ -8,7 +8,7 @@ function App() {
   const [plants, setPlants] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Fetch plants data on initial load
+  // Fetch plants data 
   useEffect(() => {
     fetch("http://localhost:6001/plants")
       .then((res) => {
