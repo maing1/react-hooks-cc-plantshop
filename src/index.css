@@ -135,3 +135,18 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
+
+.in-stock {
+  background-color: green;
+  color: white;
+}
+
+.sold-out {
+  background-color: lightgray;
+  color: black;
+}
+
+.delete {
+  background-color: lightgray;
+  color: black;
+}
